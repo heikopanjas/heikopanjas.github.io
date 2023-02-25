@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+<a rel="me" href="https://chaos.social/@joe_viterbo">Mastodon</a>
