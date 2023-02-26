@@ -1,6 +1,6 @@
 title: Heiko Panjas
 email: heiko@panjas.com
-description: "Write an awesome description for your new site here"
+description: "Software development and consulting."
 url: "https://heikopanjas.github.io"
 
 # Build settings
@@ -20,16 +20,15 @@ social:
   email: heiko@panjas.com
   github: https://github.com/heikopanjas
   mastodon: https://chaos.social/@joe_viterbo
-  # linkedin: https://www.linkedin.com/in/heiko-panjas-440433253/
   rss: https://panjas.com/feed.xml
 
 # Links to legal pages
 legal:
-  imprint: imprint.html
-  privacy: privacy.html
-  about: https://panjas.com/about.html
-  # imprint: /imprint
-  # privacy: /privacy
+  imprint: /imprint
+  privacy: /privacy
+
+# That's me
+introduction: true
 
 # Assets
 sass:
@@ -38,12 +37,9 @@ sass:
 
 # Permalinks
 permalink: /:year-:month-:day/:title
-paginate: 5
+paginate: 15
 
 # Related posts settings
 related_posts_section:
   max_count: 5
   min_common_tags: 2
-
-navbar-links:
-  About Me: "aboutme"
