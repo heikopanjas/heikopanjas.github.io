@@ -36,7 +36,7 @@ sass:
   style: compressed
 
 # Permalinks
-permalink: /:year-:month-:day/:title
+permalink: /blog/:year-:month-:day/:title
 paginate: 15
 
 # Related posts settings
