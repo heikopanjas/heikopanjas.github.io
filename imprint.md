@@ -17,7 +17,7 @@ Germany
 ### Contact
 
 Phone: +49 (0) 151 24105652<br>
-Email: heiko@panjas.com
+Email: <heiko@panjas.com>
 
 ### VAT ID
 
@@ -47,7 +47,7 @@ Deutschland
 ### Kontakt
 
 Telefon: +49 (0) 151 24105652<br>
-E-Mail: heiko@panjas.com
+E-Mail: <heiko@panjas.com>
 
 ### Umsatzsteuer-ID
 
