@@ -30,6 +30,8 @@ navigation:
    #   url: /apps
    - title: About
      url: /about
+   - title: Categories
+     url: /categories
    # - title: Contact
    #   url: /contact
 

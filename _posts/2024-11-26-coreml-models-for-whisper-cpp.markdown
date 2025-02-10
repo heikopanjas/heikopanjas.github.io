@@ -2,7 +2,7 @@
 layout: post
 title:  "CoreML Models for whisper.cpp"
 date:   2024-11-26 21:31:55 +0100
-categories: development ai coreml whisper
+categories: [Programming, Machine Learning]
 ---
 
 A guide for setting up and converting Whisper models to Core ML format on Apple Silicon Macs.

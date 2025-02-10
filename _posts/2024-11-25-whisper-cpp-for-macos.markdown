@@ -2,7 +2,7 @@
 layout: post
 title:  "whisper.cpp for macOS"
 date:   2024-11-25 21:31:55 +0100
-categories: development ai coreml whisper c++
+categories: [Programming, Machine Learning]
 ---
 
 A guide for building whisper.cpp with Metal and Core ML support on macOS.
