@@ -8,12 +8,12 @@
          <a href="{{ site.baseurl }}/">
             <h1 class="nav-title">{{ site.title }}</h1>
          </a>
-         <h3>
-            {% for item in site.navigation %}
-            <a href="{{ item.url }}">{{ item.title }}</a>
-            {% endfor %}
-         </h3>
-
+         <br>
+         {% for item in site.navigation %}
+         <a href="{{ item.url }}">{{ item.title | slugify }}</a>
+         {% unless forloop.last %} | {% endunless %}
+         {% endfor %}
+         
          <ul class="nav-social-icons">
             {% if site.social.email %}
             <li>
@@ -38,13 +38,6 @@
             {% endif %}
          </ul>
       </div>
-      <!-- <h3>
-         <div class="nav-container">
-            {% for item in site.navigation %}
-            <a href="{{ item.url }}">{{ item.title }}</a>
-            {% endfor %}
-         </div>
-      </h3> -->
    </nav>
 
    {% if site.social.mastodon %}

@@ -1,0 +1,15 @@
+---
+layout: default
+title: Categories
+---
+
+{% for category in site.categories %}
+<h2>{{ category[0] }}</h2>
+<ul>
+   {% for post in category[1] %}
+   <li>
+      <a href="{{ post.url }}" class="catalogue-time">{{ post.title }}</a>
+   </li>
+   {% endfor %}
+</ul>
+{% endfor %}
