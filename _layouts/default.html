@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+
+<body>
+   <nav class="nav">
+      <div class="nav-container">
+         <a href="{{ site.baseurl }}/">
+            <h1 class="nav-title">{{ site.title }}</h1>
+         </a>
+         <h3>
+            {% for item in site.navigation %}
+            <a href="{{ item.url }}">{{ item.title }}</a>
+            {% endfor %}
+         </h3>
+
+         <ul class="nav-social-icons">
+            {% if site.social.email %}
+            <li>
+               <a target="_blank" href="mailto:{{ site.social.email }}"><i class="fas fa-envelope"></i></a>
+            </li>
+            {% endif %} {% if site.social.github %}
+            <li>
+               <a target="_blank" href="{{ site.social.github }}"><i class="fab fa-github"></i></a>
+            </li>
+            {% endif %} {% if site.social.mastodon %}
+            <li>
+               <a target="_blank" href="{{ site.social.mastodon }}"><i class="fab fa-mastodon"></i></a>
+            </li>
+            {% endif %} {% if site.social.linkedin %}
+            <li>
+               <a target="_blank" href="{{ site.social.linkedin }}"><i class="fab fa-linkedin"></i></a>
+            </li>
+            {% endif %} {% if site.social.rss %}
+            <li>
+               <a href="{{ site.social.rss }}"><i class="fas fa-rss"></i></a>
+            </li>
+            {% endif %}
+         </ul>
+      </div>
+      <!-- <h3>
+         <div class="nav-container">
+            {% for item in site.navigation %}
+            <a href="{{ item.url }}">{{ item.title }}</a>
+            {% endfor %}
+         </div>
+      </h3> -->
+   </nav>
+
+   {% if site.social.mastodon %}
+   <a rel="me" href="{{ site.social.mastodon }}"></a>
+   {% endif %}
+
+   <main>{{ content }}</main>
+
+   <footer>
+      <span>
+         Copyright &copy;
+         <time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time> {{
+         site.author.name }} {% if site.legal.imprint %} |
+         <a href="{{ site.legal.imprint }}">Imprint</a> {% endif %} {% if
+         site.legal.privacy %} | <a href="{{ site.legal.privacy }}">Privacy</a>
+         {% endif %}
+      </span>
+   </footer>
+</body>
+
+</html>

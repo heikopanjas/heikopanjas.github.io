@@ -1,31 +1,46 @@
 <p>
-  <img
-    src="/assets/images/profile-2018-square.png"
-    alt="Heiko's profile picture"
-  />
+   <img src="/assets/images/profile-2018-square.png" alt="Heiko's profile picture" style="display: block; margin: 0 auto;" />
 </p>
-
-<p>Hey,</p>
-
 <p>
-  I am a freelance C/C++ developer with more than 25 years of experience in
-  international projects in the fields process and factory automation and
-  transportation.
+   Hey,
 </p>
-
 <p>
-  I take care of communication protocol implementation, business logic design
-  and database integration. Only backend and server, I don’t do user interfaces
-  or frontends.
+   I am a freelance C/C++ developer with more than 25 years of experience in international projects in process and factory automation and transportation sectors.
 </p>
-
 <p>
-  And to make sure everything runs smoothly, I also know a thing or two about
-  functional safety, security, reliability and maintainability.
+   I specialize in communication protocols, business logic design and database integration.
 </p>
-
 <p>
-  In my spare time, I contribute to software for professional podcast production.
+   I bring experience in functional safety, security, reliability and maintainability to keep systems running smoothly.
+</p>
+<p>
+   In my spare time, I contribute to the independent podcast community. After spending over 10 years with <a href="https://ultraschall.fm" target="_blank">Ultraschall</a>, an <a href="https://github.com/ultraschall" target="_blank">open-source</a> software for professional podcast production, I’m now doing other things.
 </p>
 
 <br />
+
+<div class="catalogue">
+   {% for post in site.posts %}
+   <article>
+      <h2><a class="catalogue-title" href="{{ post.url }}">{{ post.title }}</a></h2>
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+      {{ post.excerpt }}
+      <div class="catalogue-line"></div>
+   </article>
+   {% endfor %}
+</div>
+
+<div class="pagination">
+   <div class="flex-container">
+      <div>
+         {% if paginator.previous_page %}
+         <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}"><i class="fas fa-angle-left"></i>&nbspNewer</a>
+         {% endif %}
+      </div>
+      <div>
+         {% if paginator.next_page %}
+         <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older&nbsp<i class="fas fa-angle-right"></i></a>
+         {% endif %}
+      </div>
+   </div>
+</div>
