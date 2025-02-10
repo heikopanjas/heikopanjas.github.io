@@ -9,7 +9,7 @@ permalink: /imprint
 ### Information according to § 5 TMG
 
 Heiko Panjas<br>
-Software development and consulting<br />
+Software Development and Consulting<br />
 Joachim-Karnatz-Allee 6<br>
 10557 Berlin<br>
 Germany
