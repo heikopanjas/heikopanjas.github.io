@@ -4,7 +4,6 @@ description: "Software Development and Consulting."
 url: "https://heikopanjas.github.io"
 
 # Build settings
-remote_theme: heikopanjas/rain-jekyll-theme
 plugins:
    - jekyll-feed
    - jekyll-paginate
