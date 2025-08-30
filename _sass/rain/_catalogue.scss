@@ -17,7 +17,7 @@
 
   &-time {
     color: $default-tint;
-    font-family: $serif;
+    font-family: $serif !important;
     font-size: 16px;
     letter-spacing: .5px;
   }
@@ -25,7 +25,7 @@
   &-title {
     color: $default-color;
     display: block;
-    font-family: $serif;
+    font-family: $serif !important;
     font-size: 1.8rem;
     font-weight: 500;
     margin: .5rem 0;

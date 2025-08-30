@@ -40,9 +40,12 @@ footer,
     font-size: 1.3rem;
     color: $default-color;
 
-    .fa, .fas, .fab {
+    .fa,
+    .fas,
+    .fab {
       vertical-align: center;
-      color: $default-color;    }
+      color: $default-color;
+    }
   }
 
   ul {
@@ -71,7 +74,7 @@ footer,
 
   a {
     color: $default-color;
-    font-family: $serif;
+    font-family: $serif !important;
   }
 }
 
@@ -90,7 +93,7 @@ footer,
 }
 
 footer {
-  font-family: $serif;
+  font-family: $serif !important;
   padding: 2rem 0;
   text-align: center;
 

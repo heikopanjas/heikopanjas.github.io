@@ -11,7 +11,7 @@ body {
 }
 
 html {
-  font-family: $sans-serif;
+  font-family: $sans-serif !important;
   font-size: 18px;
   overflow-y: scroll;
 
@@ -21,15 +21,15 @@ html {
 }
 
 body {
-  font-family: $sans-serif;
+  font-family: $sans-serif !important;
   font-size: 18px;
 }
 
 h1 {
   color: $default-color;
-    font-family: $serif;
-    font-size: 48px;
-    line-height: normal;
+  font-family: $serif !important;
+  font-size: 48px;
+  line-height: normal;
 }
 
 h2,
@@ -38,7 +38,7 @@ h4,
 h5,
 h6 {
   color: $default-color;
-  font-family: $serif;
+  font-family: $serif !important;
   line-height: normal;
 }
 
