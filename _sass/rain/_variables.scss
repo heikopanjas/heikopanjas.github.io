@@ -17,18 +17,18 @@ $shadow-color: rgba(0, 0, 0, .2);
 $code-color: #bf616a;
 
 // Fonts
-$serif: 'Cormorant SC', serif;
-$sans-serif: 'Cormorant Garamond', sans-serif;
-$monospaced: 'Courier Prime', monospace;
+$serif: 'ET Book', Baskerville, 'Libre Baskerville', 'Palatino Linotype', 'Times New Roman', serif;
+$sans-serif: 'ET Book', Baskerville, 'Libre Baskerville', 'Palatino Linotype', 'Times New Roman', serif;
+$monospaced: 'Source Code Pro', 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
 
 @mixin box-sizing($type: border-box) {
   -webkit-box-sizing: $type;
-     -moz-box-sizing: $type;
-          box-sizing: $type;
+  -moz-box-sizing: $type;
+  box-sizing: $type;
 }
 
 @mixin transition($args...) {
   -webkit-transition: $args;
-     -moz-transition: $args;
-          transition: $args;
+  -moz-transition: $args;
+  transition: $args;
 }
