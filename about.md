@@ -14,7 +14,7 @@ I specialize in communication protocols, business logic design and database inte
 
 I bring experience in functional safety, security, reliability and maintainability to keep systems running smoothly.
 
-In my spare time, I contribute to the independent podcast community. After spending over 10 years with [Ultraschall](https://ultraschall.fm){:target="_blank"}, an [open-source](https://github.com/ultraschall){:target="_blank"} software for professional podcast production, I'm now doing other things.
+In my spare time, I contribute to the independent podcast community. After spending over 10 years with [Ultraschall](https://ultraschall.fm){:target="_blank"}, an [open-source](https://github.com/ultraschall){:target="_blank"} software for professional podcast production, I'm now doing [other things](https://github.com/heikopanjas).
 
 Gotta go...
 
